@@ -77,7 +77,7 @@ export const projectsData = [
     tags: ["React", "JavaScript", "CSS"],
     image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80",
     githubUrl: "https://github.com",
-    liveUrl: "https://example.com/ecommerce",
+    liveUrl: "https://e-commerce-faazahamed86-7339.vercel.app/",
     featured: true
   },
   {
