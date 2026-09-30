@@ -63,32 +63,32 @@ export const projectsData = [
     title: "Expense Tracker App",
     category: "React Project",
     description: "A personal finance application for logging income and expenses, featuring category breakdowns, form validation, and persistent state management.",
-    tags: ["React", "JavaScript", "CSS"],
+    tags: ["React", "Bootstrap", "Redux", "LocalStorage"],
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
     githubUrl: "https://github.com",
     liveUrl: "https://expense-tracker-qi7o.vercel.app/",
     featured: true
   },
   {
-    id: "GoCart",
-    title: "GoCart",
+    id: "ShopEase",
+    title: "ShopEase",
     category: "React Project",
     description: "A modern online store featuring product catalog filtering, search, interactive cart management, and a responsive shopping layout.",
-    tags: ["React", "JavaScript", "CSS"],
+    tags: ["React", "Bootstrap", "Redux"],
     image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=800&q=80",
     githubUrl: "https://github.com",
     liveUrl: "https://e-commerce-faazahamed86-7339.vercel.app/",
     featured: true
   },
   {
-    id: "redux-shopping-cart",
-    title: "Redux Shopping Cart",
+    id: "GoCart",
+    title: "GoCart",
     category: "React Project",
     description: "An interactive shopping cart application demonstrating real-time cart item addition, quantity adjustments, and total price calculation.",
-    tags: ["React", "JavaScript", "CSS"],
+    tags: ["React", "Bootstrap", "Redux"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
     githubUrl: "https://github.com",
-    liveUrl: "https://example.com/shopping-cart",
+    liveUrl: "https://go-cart-sable-nu.vercel.app/",
     featured: true
   }
 ];
