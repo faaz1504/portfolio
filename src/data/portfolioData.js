@@ -66,7 +66,7 @@ export const projectsData = [
     tags: ["React", "JavaScript", "CSS"],
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=800&q=80",
     githubUrl: "https://github.com",
-    liveUrl: "https://example.com/expense-tracker",
+    liveUrl: "https://expense-tracker-qi7o.vercel.app/",
     featured: true
   },
   {
