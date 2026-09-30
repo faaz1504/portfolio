@@ -70,8 +70,8 @@ export const projectsData = [
     featured: true
   },
   {
-    id: "react-ecommerce",
-    title: "React E-Commerce Application",
+    id: "GoCart",
+    title: "GoCart",
     category: "React Project",
     description: "A modern online store featuring product catalog filtering, search, interactive cart management, and a responsive shopping layout.",
     tags: ["React", "JavaScript", "CSS"],
