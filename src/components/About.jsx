@@ -3,9 +3,7 @@ import { User, MapPin, Download, Award, Code2, BookOpen } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function About() {
-  // const handleDownloadResume = () => {
-  //   alert(`Downloading ${personalInfo.name}'s Resume...`);
-  // };
+
 
   return (
     <section id="about" className="py-24 scroll-mt-24 relative z-10 bg-slate-950/70 border-y border-slate-800/60">
@@ -84,20 +82,14 @@ export default function About() {
 
             {/* Resume Button */}
             <div className="pt-4 flex items-center gap-4">
-              <button
-                onClick={handleDownloadResume}
-                className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-600 rounded-full shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/35 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
-              >
-                {/* <Download className="w-4 h-4" />
-                Download Resume
-              </button> */}
 
-                <a
-                  href="#contact"
-                  className="px-6 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-colors"
-                >
-                  Get in Touch →
-                </a>
+
+              <a
+                href="#contact"
+                className="px-6 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-colors"
+              >
+                Get in Touch →
+              </a>
             </div>
           </div>
 
