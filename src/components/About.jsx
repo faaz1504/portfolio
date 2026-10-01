@@ -3,14 +3,14 @@ import { User, MapPin, Download, Award, Code2, BookOpen } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 export default function About() {
-  const handleDownloadResume = () => {
-    alert(`Downloading ${personalInfo.name}'s Resume...`);
-  };
+  // const handleDownloadResume = () => {
+  //   alert(`Downloading ${personalInfo.name}'s Resume...`);
+  // };
 
   return (
     <section id="about" className="py-24 scroll-mt-24 relative z-10 bg-slate-950/70 border-y border-slate-800/60">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="flex flex-col items-center text-center mb-16">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-xs font-semibold text-cyan-400 mb-4">
@@ -27,7 +27,7 @@ export default function About() {
 
         {/* Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center max-w-6xl mx-auto">
-          
+
           {/* Card Left: Highlights */}
           <div className="lg:col-span-5 space-y-4">
             <div className="glass-card p-6 rounded-3xl border border-slate-800 space-y-4">
@@ -88,16 +88,16 @@ export default function About() {
                 onClick={handleDownloadResume}
                 className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-semibold text-white bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-600 rounded-full shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/35 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200"
               >
-                <Download className="w-4 h-4" />
+                {/* <Download className="w-4 h-4" />
                 Download Resume
-              </button>
+              </button> */}
 
-              <a
-                href="#contact"
-                className="px-6 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-colors"
-              >
-                Get in Touch →
-              </a>
+                <a
+                  href="#contact"
+                  className="px-6 py-3.5 text-sm font-semibold text-slate-300 hover:text-white transition-colors"
+                >
+                  Get in Touch →
+                </a>
             </div>
           </div>
 
